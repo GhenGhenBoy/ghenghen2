@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Boostrap Intro</title>
+  </head>
+
+
+  <body>
+    
+    <!-- header -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-secondary"> -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light"> -->
+    <nav class="navbar navbar-expand-lg">
+        <!-- <div class="container-fluid"> -->
+        <div class="container">
+          <a class="navbar-brand" href="#">Voltage</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- <ul class="navbar-nav mx-auto mb-2 mb-lg-0"> -->
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <!-- <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <p id="About"><a class="nav-link" href="#about">About</a></p>
+                <!-- <a class="nav-link" href="#">About</a> -->
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Brand
+                </a>
+                <ul class="dropdown-menu my-2" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="brand.html">Clark</a></li>
+                  <li><a class="dropdown-item" href="brand.html">Clark</a></li>
+                  <li><a class="dropdown-item" href="#">Nike</a></li>
+                  <li><a class="dropdown-item" href="#">Vionic</a></li>
+                  <li><a class="dropdown-item" href="#">Cracs</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <li><a class="dropdown-item" href="#">Brikenstack</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <p id="#contact"><a class="nav-link" href="#contact">Contact</a></p>
+              </li>
+              <li class="nav-item">
+                <p id="#contact"><a class="nav-link" href="#team">Our Team</a></p>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- header done -->
+
+      <!-- carousel -->
+    <div class="container">
+      <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" style="height: 60vh">
+          <div class="carousel-item h-100 active" data-bs-interval="10000">
+            <img src="/img/windows-lhDjusLtpP4-unsplash.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5 class=" text-white">Clarks Designer Label</h5>
+              <p class="text-warning">Comfy shoes for all day long comfort.</p>
+            </div>
+          </div>
+         
+        </div>
+
+      </div>
+    </div>
+
+     <!-- carousel done-->
+
+     <!-- content -->
+
+     <div class="container text-center text-capitalize  mt-5 mb-5 text-warning">
+         <h3 class="mt-4 mb-4">latest product</h3>
+        <div class="row justify-content-center text-warning text-center gy-5">
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="/img/ryan-ancill-aJYO8JmVodY-unsplash.jpg" class="card-img-top img rounded">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text text-truncate">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="/details.html" class="btn btn-warning text-white">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="/img/camylla-battani-A5E-ym6WyGM-unsplash.jpg" class="card-img-top img rounded-circle">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text text-truncate">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="/details.html" class="btn btn-warning text-white">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="/img/camylla-battani-A5E-ym6WyGM-unsplash.jpg" class="card-img-top img rounded-bottom" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text text-truncate">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="/details.html" class="btn btn-warning text-white">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="/img/ryan-ancill-aJYO8JmVodY-unsplash.jpg" class="card-img-top img rounded-end" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text text-truncate">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="details.html" class="btn btn-warning text-white">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-sm-6 col-md-5 col-lg-3">
+            <div class="card">
+              <img src="/img/ryan-ancill-aJYO8JmVodY-unsplash.jpg" class="card-img-top img rounded-pill" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text text-truncate">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="/details.html" class="btn btn-warning text-white">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="/img/camylla-battani-A5E-ym6WyGM-unsplash.jpg" class="card-img-top img rounded-start" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text text-truncate">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="details.html" class="btn btn-warning text-white">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="/img/ryan-ancill-aJYO8JmVodY-unsplash.jpg" class="card-img-top img rounded-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text text-truncate">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="/details.html" class="btn btn-warning text-white">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="/img/camylla-battani-A5E-ym6WyGM-unsplash.jpg" class="card-img-top img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text text-truncate">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="details.html" class="btn btn-warning text-white">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3 d-sm-none d-md-block d-lg-none">
+            <div class="card">
+              <img src="/img/camylla-battani-A5E-ym6WyGM-unsplash.jpg" class="card-img-top img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text text-truncate">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="details.html" class="btn btn-warning text-white">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3 d-sm-none">
+            <div class="card">
+              <img src="/img/camylla-battani-A5E-ym6WyGM-unsplash.jpg" class="card-img-top img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text text-truncate">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="/details.html" class="btn btn-warning text-white">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+     <!-- content done -->
+
+     
+     
+
+     
+      <!-- footer -->
+      <div class="foota">
+        <div class="container text-center text-white text-capitalize">
+          <div class="row justify-content-around foota1 pt-5 pb-5">
+              <div class="col-9 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <h1 class="mt-4 mb-4">Voltage</h1>
+                <h3 class="mt-3 mb-2">high quality classys</h3>
+                <h4>shoes that suits you.....</h4>
+              </div>
+              <div class="col-9 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <h1 class="mt-4 mb-4">call us</h1>
+                <h3 class="mt-3 mb-2"><span><i class="fas fa-mobile-alt"></i></span>  0804-678-3241</h3>
+                <h3><span><i class="fas fa-phone-square-alt"></i></span>+234-01-4321567</h3>
+              </div>
+              <div class="col-9 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <h1 class="mt-4 mb-4">useful links</h1>
+                <ul class="list-unstyled">
+                  <li class="mb-1"><a href="#">Home</a></li>
+                  <li class="mb-1"><a href="#">brand</a></li>
+                  <li class="mb-1"><a href="#">about</a></li>
+                  <li class="mb-1"><a href="#">contact</a></li>
+                  <li class="mb-1"><a href="#">our team</a></li>
+
+                  <!-- <li class="mb-1"><a href="#"><span><i class="fas fa-home"></i></span> Home</a></li>
+                  <li class="mb-1"><a href="#"><span><i class="fas fa-copyright"></i></span> brand</a></li>
+                  <li class="mb-1"><a href="#"><span><i class="fas fa-address-card"></i></span> about</a></li>
+                  <li class="mb-1"><a href="#"><span><i class="fas fa-address-book"></i></span> contact</a></li>
+                  <li class="mb-1"><a href="#"><span><i class="fas fa-users"></i></span> our team</a></li> -->
+                </ul>
+              </div>
+              <div class="col-9 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <h1 class="mt-4 mb-4">our handles</h1>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+          </div>
+
+          <div class="foota2 pt-5 pb-5 border-top">
+            <h4 class="mb-2 text-warning">copyright 2022 &copy; | all rights reserved.</h4>
+            <h5><a href="#">Crafted By: Promise</a></h5>
+          </div>
+        </div>
+    </div>
+<!-- footer section -->
+
+ <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
